@@ -1,0 +1,8 @@
+{
+  "name": "kaidoplan",
+  "description": "KaidoPlan — local-first project planning; Claude Code plugin with 21 MCP tools for WBS, schedule, and status write-back",
+  "owner": { "name": "cygnusyang" },
+  "plugins": [
+    { "name": "kaidoplan", "source": "./plugins/claude-code" }
+  ]
+}

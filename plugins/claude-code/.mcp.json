@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kaidoplan": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/scripts/kaidoplan-launch.sh",
+      "args": []
+    }
+  }
+}

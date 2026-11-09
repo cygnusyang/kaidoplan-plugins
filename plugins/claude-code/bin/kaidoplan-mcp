@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+# PATH shim while the plugin is enabled. Forwards to scripts/kaidoplan-launch.sh
+# so MCP discovery stays a single code path.
+set -eu
+here="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+exec "$here/../scripts/kaidoplan-launch.sh" "$@"

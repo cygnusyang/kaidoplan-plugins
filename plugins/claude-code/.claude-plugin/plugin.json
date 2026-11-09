@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-plugin.json",
+  "name": "kaidoplan",
+  "displayName": "KaidoPlan — WBS, schedule, write-back",
+  "version": "0.1.0",
+  "description": "KaidoPlan project planning for Claude Code: read requirements, build a WBS, schedule, inspect the critical path and violations, and write task status back. Exposes 21 MCP tools via the local kaidoplan-mcp binary (Homebrew).",
+  "author": {
+    "name": "cygnusyang",
+    "url": "https://github.com/cygnusyang"
+  },
+  "homepage": "https://github.com/cygnusyang/kaidoplan-plugins",
+  "repository": "https://github.com/cygnusyang/kaidoplan-plugins",
+  "license": "Proprietary",
+  "keywords": ["project-management", "wbs", "scheduling", "mcp", "kaidoplan"]
+}
